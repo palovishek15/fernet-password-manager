@@ -107,8 +107,6 @@ View decrypted credentials
 python3 view_vault.py
 Example output:
 
-graphql
-Copy code
 001 | gmail      | me@example.com               | myS3cretP@ssw0rd
 002 | facebook   | user123                      | anotherPass123
 Delete a credential
@@ -123,7 +121,7 @@ Vault file: passwords.txt
 
 Each line format:
 
-Copy code
+
 account_name|username|FERNET_TOKEN_BASE64
 Encryption key file: key.key
 
